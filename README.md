@@ -28,7 +28,7 @@
 
 > 📷 Add your screenshots here, e.g.:
 
-![Screenshot](assets/framex-gui.jpg)
+![framex-gui](https://github.com/user-attachments/assets/efa378fe-ad8e-4ee8-8d2a-0ae508cff2f5)
 
 ---
 
@@ -39,4 +39,32 @@ git clone https://github.com/yourname/framex-webserver
 cd framex-webserver
 chmod +x *.sh
 ./start-gui.sh
-![framex-gui](https://github.com/user-attachments/assets/efa378fe-ad8e-4ee8-8d2a-0ae508cff2f5)
+
+```
+📦 Requirements
+Linux (tested on Ubuntu 22.04 / 24.04)
+
+- Apache2
+- PHP (8.1 – 8.4+ via ondrej/php PPA)
+- MariaDB or MySQL
+- Zenity (sudo apt install zenity)
+
+---
+
+💡 What is coming for Next Versions
+- .desktop launcher for app menu integration
+- .deb installer or AppImage portability
+- YAD UI version (tabs, icons, wizard)
+- Dark mode / theme toggle
+- Autostart service status checker
+
+## ⚠️ Disclaimer
+
+This is a personal project, originally developed for local development use.  
+Feel free to use, modify, or extend it to suit your own workflow.
+
+However, by using this tool, you accept that you do so **entirely at your own risk**.  
+The creator of this project holds **no responsibilityfor any damage, data loss,  
+misconfiguration, or system-level changes that may occur as a result of its usage.** 
+
+**Always review the code and understand what each script does before running it on your system.**
