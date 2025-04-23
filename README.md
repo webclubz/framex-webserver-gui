@@ -28,7 +28,7 @@
 
 > 📷 Add your screenshots here, e.g.:
 
-![Screenshot](assets/screenshot-framex.png)
+![Screenshot](assets/framex-gui.jpg)
 
 ---
 
@@ -39,3 +39,4 @@ git clone https://github.com/yourname/framex-webserver
 cd framex-webserver
 chmod +x *.sh
 ./start-gui.sh
+![framex-gui](https://github.com/user-attachments/assets/efa378fe-ad8e-4ee8-8d2a-0ae508cff2f5)
