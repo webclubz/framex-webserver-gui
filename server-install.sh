@@ -45,6 +45,8 @@ sudo a2ensite "$PROJECT_NAME.test.conf"
 echo "127.0.0.1   $PROJECT_NAME.test" | sudo tee -a /etc/hosts
 
 echo "🔄 Reloading Apache..."
-sudo systemctl reload apache2
+sudo systemctl daemon-reexec
+sudo systemctl daemon-reload
+sudo systemctl restart apache2
 
 echo "✅ Done! Visit http://$PROJECT_NAME.test to test your setup!"
